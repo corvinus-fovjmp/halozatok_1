@@ -28,6 +28,10 @@ namespace HajosTeszt
 
             app.UseHttpsRedirection();
 
+            DefaultFilesOptions options = new DefaultFilesOptions();
+            options.DefaultFileNames.Clear();
+            options.DefaultFileNames.Add("cv.html");
+            
             app.UseDefaultFiles();
 
             app.UseStaticFiles();
