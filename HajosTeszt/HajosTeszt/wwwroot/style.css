@@ -1,0 +1,70 @@
+﻿body {
+    background-color: #004225;
+    color: white;
+    font-size: 20px;
+    
+}
+h1 {
+    font-size: 2em;
+    color: red;
+    text-align: center;
+}
+h2 {
+    font-size: 1.5em;
+    color: fuchsia;
+}
+div{
+    padding:30px;
+    border: 3px dashed rgb(255, 216, 0);
+    border-radius:10px;
+
+
+}
+#studies {
+
+    text-align:left;
+    font-family:Algerian;
+    color:aqua;
+
+
+
+
+
+
+}
+#work{
+
+    color:chartreuse;
+    font-weight:bolder;
+    font-style:italic;
+
+
+
+
+}
+a:link{
+    color:white;
+
+    
+}
+a:visited {
+    color:chocolate;
+}
+
+
+a:hover {
+    color:darkviolet;
+}
+
+
+a:active {
+    color: blue;
+}
+img{
+
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+       
+}
