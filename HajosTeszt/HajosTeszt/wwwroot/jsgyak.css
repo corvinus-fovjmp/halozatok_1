@@ -1,0 +1,27 @@
+﻿#pascal {
+    
+    display:flex;
+    flex-direction:column;
+    
+
+}
+
+.sor {
+    display: flex;
+    flex-direction: row;
+}
+
+.elem {
+    height:30px;
+       width:30px;
+}
+.psor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pelem {
+    height: 30px;
+    width: 30px;
+}
