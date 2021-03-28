@@ -26,7 +26,7 @@ namespace HajosTeszt
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
+            
 
             DefaultFilesOptions options = new DefaultFilesOptions();
             options.DefaultFileNames.Clear();
