@@ -1,4 +1,4 @@
-7// JavaScript source code
+
 
 
 
@@ -9,10 +9,11 @@ var kérdések;
 var kérdésSorszám = 0;
 
 function letöltés() {
-    fetch('gyak7.json')
+    fetch('/questions.json')
         .then(response => response.json())
         .then(data => letöltésBefejezõdött(data));
 }
+
 
 function letöltésBefejezõdött(d) {
     console.log("Sikeres letöltés")
